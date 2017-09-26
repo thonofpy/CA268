@@ -2,7 +2,6 @@ def get_plural(word):
 
 	es = ("ch", "sh", "x", "s", "z", "o")
 	vowel = ("a", "e", "i", "o", "u")
-	ves = ("f", "fe")
 
 	if word[-2:] in es or word[-1] in es:
 		return word + "es"
